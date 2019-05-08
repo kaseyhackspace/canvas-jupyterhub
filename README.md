@@ -81,7 +81,11 @@ There is a commercial software as a service (SAAS) that has an implementation of
 ## Connecting Canvas-LMS with Jupyterhub (WIP: Canvas LMS Server still configuring)
 
 ## References:
-https://github.com/jupyterhub/ltiauthenticator
-https://www.slideshare.net/SamuelHinshaw1/integrating-canvas-jupyterhub
-https://github.com/UBC-DSCI/rudaux
-https://github.com/instructure/canvas-lms
+- https://github.com/jupyterhub/ltiauthenticator
+
+- https://www.slideshare.net/SamuelHinshaw1/integrating-canvas-jupyterhub
+
+- https://github.com/UBC-DSCI/rudaux
+
+- https://github.com/instructure/canvas-lms
+
