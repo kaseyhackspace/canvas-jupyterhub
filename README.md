@@ -64,7 +64,7 @@ There is a commercial software as a service (SAAS) that has an implementation of
     jupyterhub -f /path/to/jupyterhub_config.py
     ```
 
-## Setup: Canvas-LMS (Tested in DigitalOcean Droplet - 4GB 2VCPUs)
+## Setup: Canvas-LMS (Tested in DigitalOcean Droplet - 8GB 4VCPUs)
 1. Clone `canvas-lms` repository:
    ``` bash
     git clone https://github.com/instructure/canvas-lms
