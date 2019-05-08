@@ -1,6 +1,8 @@
 # JupyterHub Enabled LMS
 The purpose of this document is to create a bare-minimum learning management system that can offer interactive computing labs with the use of jupyterhub. From jupyterhub's documentation, jupyterhub can be used to serve sandboxed computing environments to students by the use of the Learning Tools Interoperability (LTI) standard. The LTI was created by MS Global Learning Consortium for connecting external service tools to learning management systems like openEdx, canvas, blackboard, moodle and etc. Officially, jupyterhub has only tested their LTI implementation on openeEdx and canvas. Since Canvas is a lighter system than the openEdx platform, it will be used in order to test the integration of Jupyterhub with an LMS.
 
+There is a commercial software as a service (SAAS) that has an implementation of this, called [IllumiDesk](https://www.illumidesk.com/) with their pricing [here](https://www.illumidesk.com/pricing). For a video of how Illumidesk works, and how this testing environment should work similarly, check out the video [here.](https://vimeo.com/273773906)
+
 ## Setup: JupyterHub (Tested in DigitalOcean Droplet - 4GB 2VCPUs)
 1. Create virtualenv `env` for running sandboxed `jupyterhub`:
    ``` bash
